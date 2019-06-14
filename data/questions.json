@@ -1,0 +1,68 @@
+[
+  {
+    "id": "04a4bbbc-646a-4d1c-83ab-f44837c52d37",
+    "question": "Are you a droid?",
+    "correctAnswer": "08799353-8700-4988-8f3a-9fabbf3e627d",
+    "incorrectAnswer": "764df1ca-0d6c-4f45-bb27-44c4a927338d",
+    "type": "bool",
+    "initial": true
+  },
+  {
+    "id": "08799353-8700-4988-8f3a-9fabbf3e627d",
+    "question": "So then, prove you can do some math. What is the sum of 8 and 9?",
+    "correctAnswer": "a330efc0-7cbe-47c8-8002-bad958714127",
+    "incorrectAnswer": "a65e67ec-178f-4cb4-a0a1-d705881cf2df",
+    "type": "addition",
+    "parameters": [8, 9]
+  },
+  {
+    "id": "764df1ca-0d6c-4f45-bb27-44c4a927338d",
+    "question": "That’s so sad.",
+    "correctAnswer": null,
+    "incorrectAnswer": null,
+    "type": "failure"
+  },
+  {
+    "id": "a330efc0-7cbe-47c8-8002-bad958714127",
+    "question": "​You are right! Wanna try another one?",
+    "correctAnswer": "b2d27620-d373-4836-8871-90f83890de9a",
+    "incorrectAnswer": "ffefc17a-5cf6-4391-92a0-da5e801ee665",
+    "type": "bool"
+  },
+  {
+    "id": "a65e67ec-178f-4cb4-a0a1-d705881cf2df",
+    "question": "​Let’s try again. What is the sum of 8 and 9?",
+    "correctAnswer": "a330efc0-7cbe-47c8-8002-bad958714127",
+    "incorrectAnswer": "a65e67ec-178f-4cb4-a0a1-d705881cf2df",
+    "type": "addition",
+    "parameters": [8, 9]
+  },
+  {
+    "id": "b2d27620-d373-4836-8871-90f83890de9a",
+    "question": "What is the sum of {RANDOM_NUMBER} and {RANDOM_NUMBER}?",
+    "correctAnswer": "15fdc610-c399-48f7-a6aa-b6ce9e5fa54d",
+    "incorrectAnswer": "5953e0c3-d5a6-433f-be55-044e2510b641",
+    "type": "randomAddition"
+  },
+  {
+    "id": "ffefc17a-5cf6-4391-92a0-da5e801ee665",
+    "question": "I see... Nice try, human!",
+    "correctAnswer": null,
+    "incorrectAnswer": null,
+    "type": "failure"
+  },
+  {
+    "id": "15fdc610-c399-48f7-a6aa-b6ce9e5fa54d",
+    "question": "You are right! I’ll remember you can do the maths!",
+    "correctAnswer": null,
+    "incorrectAnswer": null,
+    "type": "success"
+  },
+  {
+    "id": "5953e0c3-d5a6-433f-be55-044e2510b641",
+    "question": "Nice try, human!",
+    "correctAnswer": null,
+    "incorrectAnswer": null,
+    "type": "failure"
+  }
+]
